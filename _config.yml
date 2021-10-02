@@ -1,0 +1,92 @@
+# ----------------------
+# User Configuration
+# ----------------------
+
+title: Koo's blog
+url: https://Koo82.github.io
+email: Koo@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  I'm right here!
+baseurl: "" # the subpath of your site, e.g. /blog
+ # the base hostname & protocol for your site, e.g. http://example.com
+
+# Format of the permalinks
+permalink: pretty
+
+author:
+  name: Koo
+  twitter:
+  picture:
+twitter_username:
+github_username:
+logo: # path of site logo, e.g. "/assets/images/logo.png"
+search: # true, false (default)
+search_full_content: false # true, false (default)
+search_provider: # lunr (default), algolia
+algolia:
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-basically-basic
+plugins: # previsously gems
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
+
+# Exclude from processing.
+exclude:
+  - .asset-cache
+  - .bundle
+  - .codeclimate.yml
+  - .editorconfig
+  - .gitattributes
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .scss-lint.yml
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - Rakefile
+  - README
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - /docs # ignore Basically Basic sample site
+  - /example # ignore Basically Basic dev site
+
+# Collections
+collections:
+  algorithms:
+    output: true
+    permalink: /:collection/:path/
+
+# Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true
+  # _algorithms
+  - scope:
+      path: "_algorithms"
+      type: algorithms
+    values:
+      layout: post
+      read_time: true
