@@ -7,7 +7,7 @@ url: https://Koo82.github.io
 email: Koo@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   I'm right here!
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://koo82.github.io" # the subpath of your site, e.g. /blog
  # the base hostname & protocol for your site, e.g. http://example.com
 
 # Format of the permalinks
