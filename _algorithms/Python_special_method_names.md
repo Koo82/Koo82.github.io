@@ -1,8 +1,8 @@
 ---
 title: "Python Special method names"
 image:
-  path: /assets/images/python_image.bmp
-  thumbnail: /assets/images/python_image.bmp
+  path: ../assets/images/python_image.bmp
+  thumbnail: ../assets/images/python_image.bmp
   caption: "Photo from [Python](https://www.python.org/)"
 ---
 
