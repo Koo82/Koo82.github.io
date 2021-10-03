@@ -75,12 +75,12 @@ collections:
     permalink: /:collection/:path/
 
 # Analytics
-analytics:
-    provider "google-gtag"
-    google:
-        tracking_id: "G-KB8ZT6V6K4"
-        anonymize_ip: 
-
+# analytics:
+#     provider "google-gtag"
+#     google:
+#         tracking_id: "G-KB8ZT6V6K4"
+#         anonymize_ip:
+google_analytics: G-KB8ZT6V6K4
 
 # Front Matter Defaults
 defaults:
