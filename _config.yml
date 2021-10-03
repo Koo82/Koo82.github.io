@@ -74,6 +74,14 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+# Analytics
+analytics:
+    provider "google-gtag"
+    google:
+        tracking_id: "G-KB8ZT6V6K4"
+        anonymize_ip: 
+
+
 # Front Matter Defaults
 defaults:
   # _posts
