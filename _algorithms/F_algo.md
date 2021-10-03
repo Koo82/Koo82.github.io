@@ -1,8 +1,6 @@
 ---
-title: "BJ 1074"
+title: "[Baekjoon] BJ_1074 (Divide and Conquer)"
 ---
-
-Sort: Divide & Conquer Problem
 
 백준 1074번 문제 [Baekjoon 1074](https://www.acmicpc.net/problem/1074)
 
