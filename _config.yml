@@ -73,6 +73,10 @@ collections:
   algorithms:
     output: true
     permalink: /:collection/:path/
+# Tech folder 항목의 기사를 링크 형식으로 업로드 하는데 필요
+  Tech:
+    output: true
+    permalink: /:collection/:path/
 
 # Analytics
 # analytics:
@@ -95,6 +99,14 @@ defaults:
   - scope:
       path: "_algorithms"
       type: algorithms
+    values:
+      layout: post
+      read_time: true
+  # _Tech
+# 단순한 HTML 페이지에 default sheme을 입혀주는데 필요
+  - scope:
+      path: "_Tech"
+      type: Tech
     values:
       layout: post
       read_time: true
