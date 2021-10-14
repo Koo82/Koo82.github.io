@@ -2,7 +2,7 @@
 title: Tree 문제 재귀적으로 풀기 (Solve Tree Problems Recursively)
 ---
 
-Tree 문제는 재귀적으로 풀어나갈 떄 코드가 간결해 지는 장점이 있고 tree 자체도 재귀적으로 정의되기 때문에 tree 묹에 재귀를 많이 사용하고 있으며 방법론으로 크게 top-down approach와 bottom-up approach가 있다.
+Tree 문제는 재귀적으로 풀어나갈 떄 코드가 간결해 지는 장점이 있고 tree 자체도 재귀적으로 정의되기 때문에 tree 문제에 재귀를 많이 사용하고 있으며 방법론으로 크게 top-down approach와 bottom-up approach가 있다.
 
 leetcode를 참고하여 작성 [leetcode tree problem](https://leetcode.com/explore/learn/card/data-structure-tree/17/solve-problems-recursively/534/)
 
